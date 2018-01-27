@@ -18,3 +18,9 @@ new1.push(name);
 return new1 ;
 
 }
+function prependKitten(name){
+ var new1= kittens.slice();
+new1.unshift(name);
+return new1 ;
+
+}
