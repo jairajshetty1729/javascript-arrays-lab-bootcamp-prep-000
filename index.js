@@ -23,3 +23,8 @@ function prependKitten(name){
 new1.unshift(name);
 return new1 ;
 }
+function removeLastKitten(name){
+   var new1= kittens.slice();
+new1.pop(name);
+return new1 ;
+}
