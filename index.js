@@ -13,7 +13,7 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name);
 }
 function appendKitten(name){
- var new1= kittens.push(name);
-return new1 ;
+ var new1= kittens;
+return  ;
 
 }
